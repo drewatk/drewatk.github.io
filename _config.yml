@@ -1,2 +1,5 @@
 name: Drew Atkinson
 markdown: kramdown
+
+gems:
+ - jekyll-sitema
