@@ -1,5 +1,5 @@
 name: Drew Atkinson
-markdown: kramdown
-
+markdown: Kramdown
+encoding: utf-8
 gems:
  - jekyll-sitemap
