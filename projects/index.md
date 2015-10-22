@@ -25,6 +25,3 @@ A game prototype written in C++ and SDL Summer 2014
 
 ## [/r/dailyprogrammer](https://www.github.com/drewatk/daily-programmer)##
 solutions to problems from [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/)
-
-## [Pomodoro](https://www.github.com/drewatk/pomodoro)##
-Work in progress Pomodoro inspired timer that tracks your work and gives weekly data
