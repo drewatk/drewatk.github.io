@@ -1,0 +1,11 @@
+<script src="{{ "assets/js/unsplash-source.min.js" | prepend: site.baseurl }}" ></script>
+<script>
+    (function() {
+        var photo = new UnsplashPhoto();
+        var image = document.getElementById('fullscreen');
+        image.src = photo.fromCategory('buildings')
+            .width(1920)
+            .randomize('weekly')
+            .fetch();
+     })();
+</script>
