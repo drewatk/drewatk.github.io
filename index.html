@@ -29,13 +29,17 @@ permalink: /
             <img src="{{ site.avatar_img_path }}" id="avatar">
         {% endif %}
 
-        <h1>{{ site.name }}</h1>
+        <h1 id="name">{{ site.name }}</h1>
         <h3>{{ site.description }}</h3>
         <h2 style="padding-bottom:20px; ">
             <em><a href="https://candidates.drewatkinson.me/"">Check out my latest project, Twitter Candidates</a></em>
         </h2>
-
+        <div id="resume" style="display:none;">
+            <p> I'm a resume!! woooooo!</p>
+        </div>
+        <div id="buttons">
             <ul>
+                <li class="link-icon" id="resume-button"><a class="fa fa-2x fa-terminal"><span class="description">Resume</span></a></li>
                 {% if site.github_username %}
                 <li class="link-icon"><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                 {% endif %}
@@ -120,6 +124,7 @@ permalink: /
                 <li class="link-icon"><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
                 {% endif %}
             </ul>
+        </div>
     </div>
     <div class="footer">
         <!-- <p id style="color: white;">Image by <a href="https://unsplash.com">Unsplash</a></p> -->
