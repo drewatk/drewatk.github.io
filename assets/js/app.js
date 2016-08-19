@@ -1,10 +1,12 @@
 var main = function() {
-    var showResume = false
-    var toggleResume = function(event) {
+    $('#resume-button').click(function(event) {
         $('#resume').fadeToggle('slow');
-        $('#buttons').fadeToggle('fast')
-    }
-    $('#resume-button').click(toggleResume);
-}
+        $('#buttons').toggle('fast');
+    });
+    $('#back-button').click(function(event) {
+        $('#buttons').toggle('fast');
+        $('#resume').fadeToggle('slow');
 
+    });
+};
 $(document).ready(main);
